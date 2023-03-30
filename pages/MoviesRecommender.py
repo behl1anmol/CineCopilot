@@ -61,7 +61,7 @@ def movieRecommender() -> None:
 
     # sidebar
     st.sidebar.write("""
-    This is a content based recommender system. Pick a movie from the list or search for it and then wait for the reccomendations.
+    This is a content based recommender system. Pick a movie from the list or search for it and then wait for the recommendations.
     You will get six movies, posters and plots.
     """)
 

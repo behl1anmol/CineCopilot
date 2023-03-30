@@ -49,6 +49,12 @@ st.write(
     "our system!")
 st.markdown("##")
 
+# sidebar
+st.sidebar.write("""
+This is a content based recommender system. Pick a movie from the list or search for it and then wait for the recommendations.
+You will get six movies, posters and plots.
+""")
+
 with st.container():
     col1, col2, col3, col4 = st.columns((2, 0.5, 0.5, 0.5))
     with col3:
