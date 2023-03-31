@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit.components.v1 as components
 
 
-st.set_page_config(page_title="Song Recommendation", layout="wide")
+st.set_page_config(page_title="SpotifyCopilot", layout="wide")
 
 @st.cache_resource
 @st.cache_data
@@ -40,7 +40,7 @@ def n_neighbors_uri_audio(genre, start_year, end_year, test_feat):
     return uris, audios
 
 
-title = "Song Recommendation Engine"
+title = "Spotify Copilot 🎶"
 st.title(title)
 
 st.write(
@@ -51,8 +51,8 @@ st.markdown("##")
 
 # sidebar
 st.sidebar.write("""
-This is a content based recommender system. Pick a movie from the list or search for it and then wait for the recommendations.
-You will get six movies, posters and plots.
+This is a content based recommender system. Set the genre for the song and scroll down for recommendations.
+You will get six song to play.
 """)
 
 with st.container():

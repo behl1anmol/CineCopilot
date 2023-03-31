@@ -9,7 +9,7 @@ def movieRecommender() -> None:
     modelPath = "./models/recommenderModel.pkl"
 
     # set page setting
-    st.title('MoviesCoPilot')
+    st.title('Movies Copilot 🎬')
 
     # set history var
     if 'history' not in st.session_state:
