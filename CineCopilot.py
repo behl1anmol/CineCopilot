@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🙋",
 )
 
-st.markdown("<h1 style='text-align: center; color: black;'>Welcome to Cine Copliot! 🍿🎬🎸</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Welcome to Cine Copliot! 🍿🎬🎸</h1>", unsafe_allow_html=True)
 
 image = Image.open('Cine-Copilot.jpg')
 image = image.resize((500, 500))
