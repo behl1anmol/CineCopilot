@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+# from PIL import Image
 
 st.set_page_config(
     page_title="Cine Copilot",
@@ -7,6 +7,7 @@ st.set_page_config(
 )
 
 st.markdown("<h1 style='text-align: center; color: black;'>Welcome to Cine Copliot! 🍿🎬🎸</h1>", unsafe_allow_html=True)
+'''
 image = Image.open('Cine-Copilot.jpg')
 image = image.resize((500, 500))
 
@@ -20,7 +21,7 @@ with col2:
 
 with col3:
     st.write(' ')
-
+'''
 st.sidebar.success("Select an app above.")
 
 st.markdown(
