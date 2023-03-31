@@ -4,8 +4,8 @@ from PIL import Image
 st.set_page_config(
     page_title="Cine Copilot",
     page_icon="🙋",
+    layout="wide"
 )
-
 st.markdown("<h1 style='text-align: center;'>Welcome to Cine Copliot! 🍿🎬🎸</h1>", unsafe_allow_html=True)
 
 image = Image.open('Cine-Copilot.jpg')

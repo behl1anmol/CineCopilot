@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-
+st. set_page_config(layout="wide")
 def movieRecommender() -> None:
     data = pd.read_csv("./data/TmdbMovies.csv")
     modelPath = "./models/recommenderModel.pkl"
